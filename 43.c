@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int rs,commission;
+float rs,commission;
 printf("to find the commission for sales\n");
 printf("enter the sales value\n");
-scanf("%d",&rs);
+scanf("%f",&rs);
 if(rs<=500)
 {
 commission = 5*(rs)/(100) ;
@@ -21,6 +21,6 @@ else
 {
 commission = 12.5*(rs)/(100) ; 
 }
-printf("commission = %d \n",commission);
+printf("commission = %f \n",commission);
 return 0; 
 }
