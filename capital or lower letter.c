@@ -9,10 +9,11 @@ if(ch >= 'a' && ch <= 'z' )
 }
   else if(ch >= 'A' && ch <= 'Z')
   {
-printf("entered letter is capital letter");
-}
-else
-{
-printf("\nentered character is digit");
-}
+    printf("entered letter is capital letter");
+  }
+    else
+    {
+      printf("\nentered character is digit");
+    }
+  
 }
