@@ -1,19 +1,15 @@
 #include<stdio.h>
 int main ()
 {
-int num,q;
+int num,rem,q,count=0,cnt,sum=0,n;
 printf("number");
 scanf("%d",&num);
-while(q != 0)
+n=num;
+while(n!=0)
 {
-q = num%10;
-printf("%d",q);
-num = num / 10;
-q = num % 10;
-printf("%d",q);
-q = num / 10;
-printf("%d",q);
-break ;
+rem=n%10;
+sum=(sum*10)+rem;
+n=n/10;
 }
-return 0;
+printf("reverse=%d",sum);
 }
