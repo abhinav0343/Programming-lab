@@ -22,7 +22,7 @@ result= result+mul;
 q=q/10;
 cnt=count;
 mul=1;}
-if(q=num)
+if(result==num)
 {
 printf("armstrongnumber ");
 }
