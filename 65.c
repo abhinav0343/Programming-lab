@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int i,j,a[2][3];
+int i,j,a[3][3];
 printf("enter the matrix elements \n");
-for(i=0;i<2;i++)
+for(i=0;i<3;i++)
   {
      for(j=0;j<3;j++)
        {  
@@ -11,7 +11,7 @@ for(i=0;i<2;i++)
          }
   }
   printf("the matrix is\n");
-for(i=0;i<2;i++)
+for(i=0;i<3;i++)
   {
      for(j=0;j<3;j++)
        {  
@@ -22,7 +22,7 @@ for(i=0;i<2;i++)
   printf("the transpose matrix of given matrix is\n");
  for(i=0;i<3;i++)
   {
-     for(j=0;j<2;j++)
+     for(j=0;j<3;j++)
        {  
          printf("%d\t",a[j][i]);
          }
