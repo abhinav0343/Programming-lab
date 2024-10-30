@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
- char check(char mssg);
+ void check(char mssg);
 
  int main()
  {
@@ -11,7 +11,7 @@
     check(letter);
  }
 
-char check(char mssg)
+void check(char mssg)
 {
    switch(mssg)
    {
