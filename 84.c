@@ -12,7 +12,7 @@
     getchar();//to enter into new line After taking value of n
  	char info[n];
  	printf("enter information\n");
- 	fgets(info,n,stdin);
+ 	fgets(info,n,stdin);//stdin is used to read input data
  	read(info,n);
  }
  
