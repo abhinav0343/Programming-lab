@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include<string.h>
 
   void read(char name[10][30],float marks[10]);
