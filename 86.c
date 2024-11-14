@@ -16,5 +16,5 @@
  {
     int length;
     length=strlen(mssg);
-    printf("length of the sentence is %d\n",length);
+    printf("length of the sentence is %d\n",length-1);
  }   
