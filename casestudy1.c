@@ -17,7 +17,7 @@ int main()
 	 for(k=0;k<t;k++)
 	 {
         int length=strlen(a[k]);
-		int flag =0;
+		int flag =0;//doing bubble sorting
        for(i=0;i<length-1;i++)//this 'for' loop is for only outer loop dont use 'i' in comparing the strings
        {
      	  for(j=0;j<length-1-i;j++)//use 'j' in comparin of strings instead of 'i'
