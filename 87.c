@@ -1,5 +1,3 @@
-#include<stdio.h>
-#include<stdlib.h>
 #include<string.h>
 
   void read(char name[10][30],float marks[10]);
@@ -30,7 +28,12 @@
     {
         if(marks[i]>=500)
         {
-            printf("name of the student : %s       marks of the student : %2f\n",name[i],marks[i]);
+        	int roll=i;
+            printf("name of the student : %s \n",name[i]);
+          printf("marks of the student : %2f\n",marks[i]);
+          printf("roll no of the student : %d\n",roll+1);
+           printf("\n==================================\n");
+            
         }
     }
   }
