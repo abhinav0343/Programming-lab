@@ -5,7 +5,7 @@ int main()
     int i,j;
     char *aptr;
     char a[100];
-    printf("enter the elements in the string\n");
+    printf("enter the string\n");
     gets(a);
     aptr=a;
     //printf("length of string including spaces is :\n");
