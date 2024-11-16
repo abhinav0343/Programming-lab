@@ -1,25 +1,26 @@
 #include<stdio.h>
-#include<string.h>
-#include<conio.h>
+#include<stdlib.h>
 int main()
 {
-	int n,*aptr,i,max;
-	printf("enter the no:of numbers\n");
+	float *aptr,*max;
+	int n,i;
+	printf("enter no:of numbers\n");
 	scanf("%d",&n);
-	int a[n];
-	printf("enter the numbers\n");
+	float a[n];
+	aptr=a;
+	printf("enter the numbers \n");
 	for(i=0;i<n;i++)
 	{
-		scanf("%d",&a[i]);
+		scanf("%f",aptr+i);//here already aptr is storing address so do not use & again;
 	}
-	aptr=&a;
-	max=*aptr;
+	max=&aptr;
+	for(i=0;i<n;i++)
 	{
-		if(*aptr>max)
+		if( *aptr > * max)
 		{
-			max=*aptr;
+			max = aptr;//here already aptr stroing address again you should not use &
 		}
 		aptr++;
 	}
-	printf("maximum number is %d\n",max);
+	printf("bigger number from entered numbers is %f\n",*max);
 }
