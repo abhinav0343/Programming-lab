@@ -15,7 +15,7 @@ int main()
         switch(*aptr)
         {
             case 'a' :
-			case 'e' : 
+	    case 'e' : 
             case 'i' :
             case 'o' : 
             case 'u' : 
