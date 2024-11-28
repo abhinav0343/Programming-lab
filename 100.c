@@ -20,7 +20,7 @@ int main()
         scanf("%d%s%d",&a[i].roll,&a[i].s,&a[i].t);
     }
     FILE *fp;
-    fp=fopen("LNMIITSTUDENT.JAVA","w");
+    fp=fopen("LNMIITSTUDENT.txt","w");
     if(fp==NULL)
     {
         printf("error opening file for writing");
