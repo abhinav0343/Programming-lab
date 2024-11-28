@@ -7,7 +7,7 @@ int main()
     int c_count = 0, w_count = 1, l_count = 1;
     char c;
     // reading the sample text
-    file = fopen("/Users/starktek/Desktop/VS CODE/sample.txt", "r");
+    file = fopen("sample.txt", "r");
     //foef return 0 if a valid char is present and -1 if NULL
     while (c != EOF)
     {
